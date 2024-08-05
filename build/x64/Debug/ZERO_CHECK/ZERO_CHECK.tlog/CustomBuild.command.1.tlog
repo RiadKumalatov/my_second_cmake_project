@@ -1,0 +1,10 @@
+^D:\REPOS\MY_SECOND_CMAKE_PROJECT\BUILD\CMAKEFILES\726B449A34635ACBDF68F1E5A746A3D4\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Repos/my_second_cmake_project -BD:/Repos/my_second_cmake_project/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Repos/my_second_cmake_project/build/my_first_cmake_project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

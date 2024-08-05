@@ -1,0 +1,10 @@
+^D:\REPOS\MY_SECOND_CMAKE_PROJECT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Repos/my_second_cmake_project -BD:/Repos/my_second_cmake_project/build --check-stamp-file D:/Repos/my_second_cmake_project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

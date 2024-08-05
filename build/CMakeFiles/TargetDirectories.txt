@@ -1,0 +1,3 @@
+D:/Repos/my_second_cmake_project/build/CMakeFiles/my_first_cmake_program.dir
+D:/Repos/my_second_cmake_project/build/CMakeFiles/ALL_BUILD.dir
+D:/Repos/my_second_cmake_project/build/CMakeFiles/ZERO_CHECK.dir
